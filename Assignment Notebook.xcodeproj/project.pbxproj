@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6804AE172890D30700A7012D /* AddAssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6804AE162890D30700A7012D /* AddAssignmentView.swift */; };
+		6804AE192890D34800A7012D /* AssignmentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6804AE182890D34800A7012D /* AssignmentList.swift */; };
 		68C60A54288F1A6B0018A2EE /* Assignment_NotebookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C60A53288F1A6B0018A2EE /* Assignment_NotebookApp.swift */; };
 		68C60A56288F1A6B0018A2EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C60A55288F1A6B0018A2EE /* ContentView.swift */; };
 		68C60A58288F1A6C0018A2EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68C60A57288F1A6C0018A2EE /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6804AE162890D30700A7012D /* AddAssignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAssignmentView.swift; sourceTree = "<group>"; };
+		6804AE182890D34800A7012D /* AssignmentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentList.swift; sourceTree = "<group>"; };
 		68C60A50288F1A6B0018A2EE /* Assignment Notebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment Notebook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C60A53288F1A6B0018A2EE /* Assignment_NotebookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_NotebookApp.swift; sourceTree = "<group>"; };
 		68C60A55288F1A6B0018A2EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +39,9 @@
 		68C60A47288F1A6B0018A2EE = {
 			isa = PBXGroup;
 			children = (
+				68C60A55288F1A6B0018A2EE /* ContentView.swift */,
+				6804AE162890D30700A7012D /* AddAssignmentView.swift */,
+				6804AE182890D34800A7012D /* AssignmentList.swift */,
 				68C60A52288F1A6B0018A2EE /* Assignment Notebook */,
 				68C60A51288F1A6B0018A2EE /* Products */,
 			);
@@ -52,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				68C60A53288F1A6B0018A2EE /* Assignment_NotebookApp.swift */,
-				68C60A55288F1A6B0018A2EE /* ContentView.swift */,
 				68C60A57288F1A6C0018A2EE /* Assets.xcassets */,
 				68C60A59288F1A6C0018A2EE /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6804AE192890D34800A7012D /* AssignmentList.swift in Sources */,
+				6804AE172890D30700A7012D /* AddAssignmentView.swift in Sources */,
 				68C60A56288F1A6B0018A2EE /* ContentView.swift in Sources */,
 				68C60A54288F1A6B0018A2EE /* Assignment_NotebookApp.swift in Sources */,
 			);
